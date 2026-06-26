@@ -17,7 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pillow reportlab pywin32 pyinstaller
+          pip install pillow reportlab pyinstaller
 
       - name: Build EXE
         run: |
